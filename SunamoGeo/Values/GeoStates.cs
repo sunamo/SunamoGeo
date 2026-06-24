@@ -1,25 +1,13 @@
 namespace SunamoGeo.Values;
 
-/// <summary>
-/// Provides a dictionary of ISO country codes to full country names.
-/// </summary>
 public class GeoStates
 {
-    /// <summary>
-    /// Dictionary mapping ISO 3166-1 alpha-2 codes to country names.
-    /// </summary>
     public Dictionary<string, string>? StatesFullNames { get; set; } = null;
 
-    /// <summary>
-    /// Initializes a new instance without populating the states dictionary. Call <see cref="Init"/> to load data.
-    /// </summary>
     public GeoStates()
     {
     }
 
-    /// <summary>
-    /// Initializes and returns the states dictionary with all country mappings.
-    /// </summary>
     public Dictionary<string, string> Init()
     {
         StatesFullNames = new Dictionary<string, string>();
@@ -37,7 +25,7 @@ public class GeoStates
         StatesFullNames.Add("AT", Translate.FromKey(XlfKeys.Austria));
         StatesFullNames.Add("AU", Translate.FromKey(XlfKeys.Australia));
         StatesFullNames.Add("AW", Translate.FromKey(XlfKeys.Aruba));
-        StatesFullNames.Add("AX", "\u00C5land Islands");
+        StatesFullNames.Add("AX", "Åland Islands");
         StatesFullNames.Add("AZ", Translate.FromKey(XlfKeys.Azerbaijan));
         StatesFullNames.Add("BA", Translate.FromKey(XlfKeys.BosniaAndHerzegovina));
         StatesFullNames.Add("BB", Translate.FromKey(XlfKeys.Barbados));
@@ -48,7 +36,7 @@ public class GeoStates
         StatesFullNames.Add("BH", Translate.FromKey(XlfKeys.Bahrain));
         StatesFullNames.Add("BI", Translate.FromKey(XlfKeys.Burundi));
         StatesFullNames.Add("BJ", Translate.FromKey(XlfKeys.Benin));
-        StatesFullNames.Add("BL", "Saint Barth\u00E9lemy");
+        StatesFullNames.Add("BL", "Saint Barthélemy");
         StatesFullNames.Add("BM", Translate.FromKey(XlfKeys.Bermuda));
         StatesFullNames.Add("BN", Translate.FromKey(XlfKeys.BruneiDarussalam));
         StatesFullNames.Add("BO", Translate.FromKey(XlfKeys.BoliviaPlurinationalStateOf));
@@ -66,7 +54,7 @@ public class GeoStates
         StatesFullNames.Add("CF", Translate.FromKey(XlfKeys.CentralAfricanRepublic));
         StatesFullNames.Add("CG", Translate.FromKey(XlfKeys.Congo));
         StatesFullNames.Add("CH", Translate.FromKey(XlfKeys.Switzerland));
-        StatesFullNames.Add("CI", "C\u00F4te d'Ivoire");
+        StatesFullNames.Add("CI", "Côte d'Ivoire");
         StatesFullNames.Add("CK", Translate.FromKey(XlfKeys.CookIslands));
         StatesFullNames.Add("CL", Translate.FromKey(XlfKeys.Chile));
         StatesFullNames.Add("CM", Translate.FromKey(XlfKeys.Cameroon));
@@ -75,7 +63,7 @@ public class GeoStates
         StatesFullNames.Add("CR", Translate.FromKey(XlfKeys.CostaRica));
         StatesFullNames.Add("CU", Translate.FromKey(XlfKeys.Cuba));
         StatesFullNames.Add("CV", Translate.FromKey(XlfKeys.CaboVerde));
-        StatesFullNames.Add("CW", "Cura\u00E7ao");
+        StatesFullNames.Add("CW", "Curaçao");
         StatesFullNames.Add("CX", Translate.FromKey(XlfKeys.ChristmasIsland));
         StatesFullNames.Add("CY", Translate.FromKey(XlfKeys.Cyprus));
         StatesFullNames.Add("CZ", Translate.FromKey(XlfKeys.CzechRepublic));
@@ -210,7 +198,7 @@ public class GeoStates
         StatesFullNames.Add("PW", Translate.FromKey(XlfKeys.Palau));
         StatesFullNames.Add("PY", Translate.FromKey(XlfKeys.Paraguay));
         StatesFullNames.Add("QA", Translate.FromKey(XlfKeys.Qatar));
-        StatesFullNames.Add("RE", "R\u00E9union");
+        StatesFullNames.Add("RE", "Réunion");
         StatesFullNames.Add("RO", Translate.FromKey(XlfKeys.Romania));
         StatesFullNames.Add("RS", Translate.FromKey(XlfKeys.Serbia));
         StatesFullNames.Add("RU", Translate.FromKey(XlfKeys.RussianFederation));
