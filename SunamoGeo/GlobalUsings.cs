@@ -1,4 +1,3 @@
-global using SunamoGeo._sunamo.SunamoLang.SunamoI18N;
 global using SunamoGeo.Value;
 global using SunamoGeo.Values;
 global using System;
