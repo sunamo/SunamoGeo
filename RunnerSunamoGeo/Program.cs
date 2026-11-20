@@ -1,4 +1,3 @@
-// variables names: ok
 namespace RunnerSunamoGeo;
 
 internal class Program
