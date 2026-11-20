@@ -1,5 +1,8 @@
 namespace SunamoGeo.Value;
 
+/// <summary>
+/// Represents the geo czech regions type.
+/// </summary>
 public static class GeoCzechRegions
 {
     private static List<GeoCzechRegion>? s_czechRegions;
@@ -23,6 +26,9 @@ public static class GeoCzechRegions
         s_czechRegions.Add(new GeoCzechRegion("J", "Kraj Vysočina", "VYS", "Jihlava"));
     }
 
+    /// <summary>
+    /// The czech regions.
+    /// </summary>
     public static List<GeoCzechRegion> CzechRegions
     {
         get

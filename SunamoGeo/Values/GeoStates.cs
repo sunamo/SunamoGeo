@@ -1,13 +1,27 @@
 namespace SunamoGeo.Values;
 
+/// <summary>
+/// Represents the geo states type.
+/// </summary>
 public class GeoStates
 {
+    /// <summary>
+    /// Gets or sets the states full names.
+    /// </summary>
     public Dictionary<string, string>? StatesFullNames { get; set; } = null;
 
+    /// <summary>
+    /// Geo states.
+    /// </summary>
+    /// <returns>The geo states result.</returns>
     public GeoStates()
     {
     }
 
+    /// <summary>
+    /// Init.
+    /// </summary>
+    /// <returns>The init result.</returns>
     public Dictionary<string, string> Init()
     {
         StatesFullNames = new Dictionary<string, string>();
